@@ -6,13 +6,13 @@ public static class Services
     /// The name of the Web Frontend service.
     /// This service is responsible for hosting the frontend application.
     /// </summary>
-    public const string WebFrontend = "webfrontend";
+    public const string Frontend = "frontend";
 
     /// <summary>
     /// The name of the Web API service.
     /// This service is responsible for hosting the Web API application.
     /// </summary>
-    public const string WebApi = "webapi";
+    public const string Backend = "backend";
 
     /// <summary>
     /// The name of the Database Server service.
