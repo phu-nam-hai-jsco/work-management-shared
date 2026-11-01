@@ -25,4 +25,7 @@ public static class Services
     /// This is the name of the database that will be created and used by the application.
     /// </summary>
     public const string Database = "QuanLyCongViecDb";
+
+    /// <summary>Connection string Redis làm kho lưu trạng thái Hangfire (job, queue, lịch recurring).</summary>
+    public const string HangfireRedis = "HangfireRedis";
 }
