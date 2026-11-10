@@ -28,4 +28,7 @@ public static class Services
 
     /// <summary>Connection string Redis làm kho lưu trạng thái Hangfire (job, queue, lịch recurring).</summary>
     public const string HangfireRedis = "HangfireRedis";
+
+    /// <summary>Redis cho cache ứng dụng (tuỳ chọn). Không cấu hình thì dùng chung Redis của Hangfire.</summary>
+    public const string CacheRedis = "CacheRedis";
 }
