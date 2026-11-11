@@ -1,4 +1,4 @@
-namespace QuanLyCongViec.Shared;
+namespace WorkManagement.Shared;
 
 /// <summary>
 /// Keys for hosting static SPA from wwwroot.
@@ -9,7 +9,7 @@ public static class HostingOptions
     public const string SectionName = "Hosting";
 
     /// <summary>
-    /// When true (default), enables <see cref="Microsoft.AspNetCore.Builder.StaticFileExtensions.UseFileServer"/>
+    /// When true (default), enables static file server (<c>UseFileServer</c>)
     /// and SPA fallback to index.html.
     /// When false, API-only pipeline (no wwwroot / no MapFallbackToFile).
     /// </summary>

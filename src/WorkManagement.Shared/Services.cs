@@ -1,4 +1,4 @@
-﻿namespace QuanLyCongViec.Shared;
+namespace WorkManagement.Shared;
 
 public static class Services
 {

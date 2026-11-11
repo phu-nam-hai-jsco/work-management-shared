@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/WorkManagement.Shared/WorkManagement.Shared.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/WorkManagement.Shared.Tests/WorkManagement.Shared.Tests.csproj" />
+  </Folder>
+</Solution>
+

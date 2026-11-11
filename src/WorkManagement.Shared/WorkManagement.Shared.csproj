@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    WorkManagement.Shared — hằng số và tùy chọn cấu hình dùng chung giữa AppHost, Infrastructure, Api và các test project của QuanLyCongViec.
+  -->
+
+  <PropertyGroup>
+    <RootNamespace>WorkManagement.Shared</RootNamespace>
+    <AssemblyName>WorkManagement.Shared</AssemblyName>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package">
+    <IsPackable>true</IsPackable>
+    <PackageId>WorkManagement.Shared</PackageId>
+    <Description>Shared constants and hosting configuration keys for QuanLyCongViec (Aspire resource IDs, connection string names, and SPA hosting options).</Description>
+    <PackageTags>aspire;shared;constants;quanlycongviec</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <InternalsVisibleTo Include="WorkManagement.Shared.Tests" />
+  </ItemGroup>
+
+</Project>
